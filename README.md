@@ -3,6 +3,8 @@
 ## 1. Introduction
 QueryPlanner is a Java application designed to allow users to schedule and manage the execution of queries on a MySQL database. The system enables users to define programmable queries with options for recurring execution, date and time management, and database connection parameter configuration.
 
+![Planner Image](images/planner.png)
+
 ## 2. Main Features
 - **Query Scheduling**: Users can define SQL queries to be executed at specific intervals or at a precise date and time.
 - **Database Connection**: Configure connection parameters such as IP address, port, username, password, and database name.
@@ -45,6 +47,9 @@ The `QueryDatasFile.qpl` file is structured in a human-readable text format, wit
   - Time for query execution.
 - **weekDays**:
   - An array representing the days of the week when the query should be executed (1 for executed, 0 for not executed).
+ 
+  - ![Query Executor Image](images/executor.png)
+
 
 
 ## 6. Requirements
